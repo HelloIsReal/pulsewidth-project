@@ -14,7 +14,7 @@ func _on_file_dialog_file_selected(path: String) -> void:
 	
 	var file = FileAccess.open(path, FileAccess.READ)
 	if file:
-		var content = file.get_as_text()
+		Global.content = file.get_as_text()
 		file.close()
-		print(content)
+		print(Global.content)
 	
