@@ -10,20 +10,21 @@ script = ExtResource("1_0wfyh")
 
 [node name="Label" type="Label" parent="CanvasLayer" unique_id=1633292183]
 offset_left = 3.0
-offset_top = 39.0
-offset_right = 1149.0
-offset_bottom = 132.0
-theme_override_font_sizes/font_size = 48
+offset_top = -8.0
+offset_right = 1924.0
+offset_bottom = 507.0
+theme_override_font_sizes/font_size = 85
 text = "Maimai chart song player
 (but without the music.... making music?!)"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="uploadButton" type="Button" parent="CanvasLayer" unique_id=966430132]
-offset_left = 85.0
-offset_top = 398.0
-offset_right = 584.0
-offset_bottom = 473.0
-theme_override_font_sizes/font_size = 48
+offset_left = 545.0
+offset_top = 568.0
+offset_right = 1373.0
+offset_bottom = 686.0
+theme_override_font_sizes/font_size = 80
 text = "Upload chart file (txt)"
 script = ExtResource("1_o5qli")
 
