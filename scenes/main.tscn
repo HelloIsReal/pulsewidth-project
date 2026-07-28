@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bg8wyaimkvbfd"]
+
+[node name="Node2D" type="Node2D" unique_id=1782488295]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1505657566]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=1633292183]
+offset_left = 3.0
+offset_top = 39.0
+offset_right = 1149.0
+offset_bottom = 132.0
+theme_override_font_sizes/font_size = 48
+text = "Maimai chart song player
+(but without the music.... making music?!)"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="CanvasLayer" unique_id=966430132]
+offset_left = 85.0
+offset_top = 398.0
+offset_right = 584.0
+offset_bottom = 473.0
+theme_override_font_sizes/font_size = 48
+text = "Upload chart file (txt)"
